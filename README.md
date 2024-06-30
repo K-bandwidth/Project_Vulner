@@ -4,7 +4,9 @@ This script uses various analyzing and carving tools to automate network scannin
 
 ## Video Demonstration
 
-Video demonstration coming soon.
+[![Video Demonstration](https://img.youtube.com/vi/PjDXN4xUNso/0.jpg)](https://youtu.be/PjDXN4xUNso)
+
+Click the image above to watch the video demonstration.
 
 ## Requirements
 
