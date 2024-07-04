@@ -18,6 +18,19 @@ The following tools will be installed if missing:
 - hydra
 - medusa
 - zip
+## Running the code
+clone the repo onto your machine and follow these instructions -
+
+- Navigate to the project directory (if you're not already there):
+`cd ~/Project_Vulner`
+
+- Set execute permission for the script:
+`chmod +x vulner_scan.sh`
+
+
+- Run the script:
+`./vulner_scan.sh`
+Note the script must be ran as root.
 
 ## Script Workflow
 
