@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Check if the script is run as root
 if [ "$(whoami)" != "root" ]; then
@@ -8,7 +8,7 @@ fi
 
 # Ask the user if they want to check for updates
 read -p "Do you want to check for updates? (y/n): " check_updates
-if [[ "$check_updates" =~ ^(y|Y)$ ]]; then
+if [ "$check_updates" = "y" ] || [ "$check_updates" = "Y" ]; then
     echo "Ф Checking for updates..."
     apt-get update
     apt-get upgrade -y
